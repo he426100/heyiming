@@ -1,0 +1,22 @@
+---------------------------------------------------------------
+[ 2017-07-08T16:48:57+08:00 ] 0.0.0.0 127.0.0.1 GET 127.0.0.1:9000/  
+[4096]Argument 1 passed to Error::report() must be an instance of Exception, array given, called in E:\Git\heyiming\heyiming\library\Error.php on line 23 and defined[E:\Git\heyiming\heyiming\library\Error.php:54]
+---------------------------------------------------------------
+[ 2017-07-08T16:48:57+08:00 ] 0.0.0.0 127.0.0.1 GET 127.0.0.1:9000/  
+array (
+  'type' => 1,
+  'message' => 'Class \'UsersModel\' not found',
+  'file' => 'E:\\Git\\heyiming\\heyiming\\library\\helper.php',
+  'line' => 8,
+)
+---------------------------------------------------------------
+[ 2017-07-08T16:54:34+08:00 ] 0.0.0.0 127.0.0.1 GET 127.0.0.1:9000/  
+[4096]Argument 1 passed to Error::report() must be an instance of Exception, array given, called in E:\Git\heyiming\heyiming\library\Error.php on line 23 and defined[E:\Git\heyiming\heyiming\library\Error.php:54]
+---------------------------------------------------------------
+[ 2017-07-08T16:54:34+08:00 ] 0.0.0.0 127.0.0.1 GET 127.0.0.1:9000/  
+array (
+  'type' => 1,
+  'message' => 'Cannot use object of type UsersModel as array',
+  'file' => 'E:\\Git\\heyiming\\app\\view\\index.php',
+  'line' => 12,
+)
